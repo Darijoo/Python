@@ -19,4 +19,4 @@ with open('index.html','w') as output_file:
         title=config['title'],
         article = article
         )
-    )
+    )   
