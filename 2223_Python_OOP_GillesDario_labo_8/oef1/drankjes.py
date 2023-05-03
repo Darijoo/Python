@@ -8,6 +8,8 @@ class LogFile:
         self.bestand = open(bestandsnaam, 'w')
     def log(self, tektst):
         self.bestand.write(tektst + '/n')
+    def close(self):
+        self.bestand.close
 
 
 
