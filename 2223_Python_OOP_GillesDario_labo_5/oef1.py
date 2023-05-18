@@ -1,3 +1,9 @@
+# Op Unix gebaseerde besturingssystemen bevatten een tool met de naam head.
+# Het toont de eerste 10 regels van een bestand waarvan de naam is opgegeven als een command-line argument.
+# Schrijf een Python-programma met hetzelfde gedrag.
+# Geef een passend foutbericht weer als het door de gebruiker gevraagde bestand nietbestaat,
+# of als het command-lineargument wordt weggelaten.
+
 import sys
 
 AANTAL_REGELS = 10
